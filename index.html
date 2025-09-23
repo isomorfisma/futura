@@ -1,0 +1,547 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body class="font-rfdewi relative overflow-x-hidden">
+
+    <!-- Section 1: Hero -->
+    <section class="min-h-screen flex items-center justify-center relative py-16 px-4 sm:py-20" style="background: linear-gradient(to bottom, #FFE8E6, #F6ADBF);">
+        <!-- Asset 1 - Left decorative image -->
+        <img src="assets/asset1.svg" alt=""
+            class="absolute left-[-40%] top-[-5%] h-[40vh] w-auto opacity-60 pointer-events-none 
+                   xs:left-[-30%] xs:h-[45vh] xs:opacity-70
+                   sm:left-[-25%] sm:h-[50vh] sm:opacity-80
+                   md:left-[-15%] md:h-[55vh] md:opacity-90
+                   lg:left-[-8%] lg:h-[60vh] lg:opacity-100 
+                   animate-fadeInLeft animate-float" />
+
+        <!-- Asset 2 - Right decorative image -->
+        <img src="assets/asset2.svg" alt=""
+            class="absolute right-[-30%] bottom-[5%] h-[35vh] w-auto opacity-60 pointer-events-none 
+                   xs:right-[-25%] xs:h-[40vh] xs:opacity-70
+                   sm:right-[-20%] sm:h-[45vh] sm:opacity-80
+                   md:right-[-15%] md:h-[50vh] md:opacity-90
+                   lg:right-[-8%] lg:h-[55vh] lg:opacity-100 
+                   animate-fadeInRight animate-float" />
+
+        <!-- Main Content -->
+        <div class="text-center text-blue-800 w-full max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 relative z-10 opacity-0 animate-fadeInUp">
+
+            <!-- Header Text -->
+            <p class="font-bold text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-3 sm:mb-4 md:mb-6 lg:mb-8 opacity-0 animate-fadeInUp hover-lift px-2">
+                Himpunan Mahasiswa Teknik Elektro Unpad Presents!
+            </p>
+
+            <!-- Logo/Title -->
+            <div class="mb-4 sm:mb-6 md:mb-8 lg:mb-10 xl:mb-12 px-2 sm:px-4 opacity-0 animate-scaleIn">
+                <img src="assets/Title.svg" alt="Futura Logo"
+                    class="mx-auto w-full max-w-[200px] sm:max-w-[250px] md:max-w-[350px] lg:max-w-[450px] xl:max-w-[550px] h-auto">
+            </div>
+
+            <!-- Main Title -->
+            <h2 class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold mb-4 sm:mb-6 md:mb-8 lg:mb-10 text-blue-800 px-2 sm:px-4 opacity-0 animate-fadeInUp text-shimmer hover-lift leading-tight">
+                Implementasi Energi Cerdas di Era Industri 5.0: Optimalisasi Smart Grid dan Energi Baru Terbarukan
+            </h2>
+
+            <!-- CTA Button -->
+            <button class="relative bg-white/65 backdrop-blur-md border border-white/30 text-blue-800 font-semibold 
+                         py-3 px-8 sm:py-4 sm:px-12 md:py-5 md:px-16 lg:py-6 lg:px-20
+                         rounded-full text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 
+                         shadow-lg transition duration-300 hover:bg-white/50 hover:scale-105 opacity-0 animate-fadeInUp animate-pulse-glow transform hover:rotate-1">
+                Daftar Sekarang
+            </button>
+        </div>
+    </section>
+
+    <!-- Section 2: Tentang Futura -->
+    <section class="min-h-screen flex items-center justify-center relative py-16 px-4 sm:py-20" style="background: linear-gradient(to bottom, #F6ADBF, #FFE8E6);">
+
+        <!-- Asset 2 - Right decorative image -->
+        <img src="assets/asset2.svg" alt=""
+            class="absolute right-[-35%] top-[50%] h-[35vh] w-auto opacity-50 pointer-events-none 
+                   xs:right-[-30%] xs:h-[40vh] xs:opacity-60
+                   sm:right-[-25%] sm:h-[45vh] sm:opacity-70
+                   md:right-[-20%] md:h-[50vh] md:opacity-80
+                   lg:right-[-12%] lg:h-[55vh] lg:opacity-90
+                   xl:right-[-7%] xl:h-[60vh] xl:opacity-100
+                   animate-on-scroll animate-float-slow" data-animation="slideInRight" />
+
+        <!-- Asset 1 - Left decorative image -->
+        <img src="assets/asset1.svg" alt=""
+            class="absolute left-[-40%] bottom-[25%] h-[35vh] w-auto opacity-50 pointer-events-none 
+                   xs:left-[-35%] xs:h-[40vh] xs:opacity-60
+                   sm:left-[-30%] sm:h-[50vh] sm:opacity-70
+                   md:left-[-25%] md:h-[55vh] md:opacity-80
+                   lg:left-[-20%] lg:h-[65vh] lg:opacity-90
+                   xl:left-[-15%] xl:h-[70vh] xl:opacity-100
+                   animate-on-scroll animate-float-delayed" data-animation="slideInLeft" />
+
+        <!-- Main Content -->
+        <div class="text-center text-gray-800 w-full max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 relative z-10">
+
+            <!-- Main Title -->
+            <div class="title-container py-4 sm:py-6 mb-2">
+                <h1 class="text-blue-800 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold animate-on-scroll hover-glow text-gradient-hover leading-tight px-2"
+                    data-animation="fadeInOnScroll">
+                    Tentang Futura
+                </h1>
+            </div>
+            
+            <!-- Description Paragraph -->
+            <div class="paragraph-reveal animate-on-scroll" data-animation="textReveal">
+                <p class="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl leading-relaxed text-black px-2 sm:px-4 md:px-6 lg:px-8 text-justify hover-lift">
+                    FUTURA adalah ajang inovatif yang mengintegrasikan <strong class="text-blue-800">Seminar
+                        Nasional</strong>, <strong class="text-blue-800">Diseminasi Riset</strong>, <strong
+                        class="text-blue-800">Lomba Robotik</strong>, dan <strong class="text-blue-800">Pameran
+                        Teknologi</strong> dalam satu rangkaian acara. Dengan tujuan memperluas wawasan teknologi,
+                    meningkatkan kreativitas, serta mendorong kontribusi nyata dalam kemajuan sains dan inovasi, FUTURA
+                    menjadi wadah bagi akademisi, mahasiswa, dan industri untuk berkolaborasi dalam membangun masa depan
+                    teknologi yang berkelanjutan.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Diseminasi Riset -->
+    <section class="min-h-screen flex items-center justify-center relative py-16 px-4 sm:py-20" style="background: linear-gradient(to bottom, #FFE8E6, #F6ADBF);">
+
+        <!-- Asset 1 - Left decorative image -->
+        <img src="assets/asset1.svg" alt=""
+            class="absolute left-[-30%] top-[10%] h-[35vh] w-auto opacity-50 pointer-events-none 
+                   xs:left-[-25%] xs:h-[40vh] xs:opacity-60
+                   sm:left-[-20%] sm:h-[45vh] sm:opacity-70
+                   md:left-[-15%] md:h-[50vh] md:opacity-80
+                   lg:left-[-8%] lg:h-[55vh] lg:opacity-90
+                   xl:left-[-4%] xl:h-[60vh] xl:opacity-100
+                   animate-on-scroll animate-float-slow" data-animation="slideInLeft" />
+
+        <!-- Asset 2 - Right decorative image -->
+        <img src="assets/asset2.svg" alt=""
+            class="absolute right-[-30%] bottom-[10%] h-[35vh] w-auto opacity-50 pointer-events-none 
+                   xs:right-[-25%] xs:h-[40vh] xs:opacity-60
+                   sm:right-[-20%] sm:h-[45vh] sm:opacity-70
+                   md:right-[-15%] md:h-[50vh] md:opacity-80
+                   lg:right-[-8%] lg:h-[55vh] lg:opacity-90
+                   xl:right-[-4%] xl:h-[60vh] xl:opacity-100
+                   animate-on-scroll animate-float-delayed" data-animation="slideInRight" />
+
+        <div class="text-center text-gray-800 w-full max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 relative z-10">
+
+            <!-- Main Title -->
+            <div class="py-4 sm:py-6 mb-2">
+                <h1 class="text-blue-800 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold mb-4 sm:mb-6 md:mb-8 animate-on-scroll hover-glow text-gradient-hover px-2"
+                    data-animation="fadeInOnScroll">
+                    Diseminasi Riset
+                </h1>
+            </div>
+
+            <!-- Description -->
+            <div class="paragraph-reveal animate-on-scroll mb-4 sm:mb-6 md:mb-8" data-animation="textReveal">
+                <p class="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl leading-relaxed text-black max-w-4xl mx-auto px-2 sm:px-4 text-justify hover-lift">
+                    <strong class="text-blue-800">Diseminasi Riset</strong> merupakan salah satu rangkaian dari Seminar
+                    Nasional Futura di mana
+                    menjadi wadah bagi peneliti untuk mempromosikan paper yang akan dipublikasikan, menjangkau audiens
+                    lebih
+                    luas, dan mendorong diskusi lebih lanjut.
+                </p>
+            </div>
+
+            <!-- Theme Headers -->
+            <h3 class="font-rfdewi-italic text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-semibold text-blue-800 px-2 sm:px-4 animate-on-scroll hover-lift"
+                data-animation="fadeInOnScroll">
+                Tema Diseminasi Riset:
+            </h3>
+            <h3 class="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-bold text-blue-800 mb-6 sm:mb-8 md:mb-10 lg:mb-12 px-2 sm:px-4 animate-on-scroll hover-glow"
+                data-animation="fadeInOnScroll">
+                Inovasi Sains dan Teknologi untuk Energi Masa Depan
+            </h3>
+
+            <!-- Main Card Container -->
+            <div class="rounded-xl p-2 sm:p-3 md:p-4 max-w-5xl mx-auto gradient-bg-animated animate-on-scroll card-hover"
+                data-animation="cardSlideUp">
+
+                <div class="flex flex-col lg:flex-row gap-2 sm:gap-3 md:gap-4">
+
+                    <!-- Left Card - Call for Paper -->
+                    <div class="flex-1 rounded-xl p-4 sm:p-6 md:p-8 flex flex-col min-h-[200px] sm:min-h-[250px] animate-on-scroll card-hover"
+                        style="background: linear-gradient(to bottom, #1F22D5, #2B2C66);" data-animation="slideInLeft">
+
+                        <p class="text-white text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold mb-3 sm:mb-4 animate-on-scroll"
+                            data-animation="fadeInOnScroll">
+                            Call for Paper
+                        </p>
+
+                        <div class="flex-1 flex flex-col justify-center">
+                            <ul class="flex flex-col gap-3 sm:gap-4">
+                                <li class="flex items-start gap-2 sm:gap-3 animate-on-scroll hover-lift"
+                                    data-animation="fadeInOnScroll">
+                                    <span class="flex-shrink-0 flex items-center justify-center w-5 h-5 sm:w-6 sm:h-6 bg-white rounded-full text-[#1F22D5] font-bold text-xs sm:text-sm mt-1 icon-pulse">
+                                        &gt;
+                                    </span>
+                                    <p class="text-white text-xs sm:text-sm md:text-base text-justify">
+                                        Peserta dengan nilai presentasi terbaik akan diberikan penghargaan <strong>BEST
+                                            PRESENTER</strong>.
+                                    </p>
+                                </li>
+                                <li class="flex items-start gap-2 sm:gap-3 animate-on-scroll hover-lift"
+                                    data-animation="fadeInOnScroll">
+                                    <span class="flex-shrink-0 flex items-center justify-center w-5 h-5 sm:w-6 sm:h-6 bg-white rounded-full text-[#1F22D5] font-bold text-xs sm:text-sm mt-1 icon-pulse">
+                                        &gt;
+                                    </span>
+                                    <p class="text-white text-xs sm:text-sm md:text-base text-justify">
+                                        Semua jurnal peserta akan di publish di <strong>Jurnal Unpad Jtesla (Jurnal
+                                            Nasional Teknik Elektro dan Sains Aplikasi)</strong>.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Right Card - Ruang Lingkup -->
+                    <div class="flex-1 flex flex-col gap-3 sm:gap-4 p-3 sm:p-4 animate-on-scroll" data-animation="slideInRight">
+
+                        <!-- Header -->
+                        <div class="w-full rounded-full py-2 px-3 sm:px-4 animate-on-scroll card-hover"
+                            style="background: linear-gradient(to bottom, #1F22D5, #2B2C66);" data-animation="scaleIn">
+                            <p class="text-white text-center font-medium text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">
+                                Ruang Lingkup Tema
+                            </p>
+                        </div>
+
+                        <!-- Top Row Icons -->
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
+                            <div class="flex flex-col items-center text-white animate-on-scroll hover-lift p-2"
+                                data-animation="iconBounce">
+                                <img src="./assets/sun.svg" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 icon-pulse" alt="Sun Icon">
+                                <p class="mt-2 text-center text-xs sm:text-sm">Energi Terbarukan & Keberlanjutan</p>
+                            </div>
+                            <div class="flex flex-col items-center text-white animate-on-scroll hover-lift p-2"
+                                data-animation="iconBounce">
+                                <img src="./assets/electric.svg" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 icon-pulse" alt="Electric Icon">
+                                <p class="mt-2 text-center text-xs sm:text-sm">Smart Power System</p>
+                            </div>
+                            <div class="flex flex-col items-center text-white animate-on-scroll hover-lift p-2"
+                                data-animation="iconBounce">
+                                <img src="./assets/hardware.svg" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 icon-pulse" alt="Hardware Icon">
+                                <p class="mt-2 text-center text-xs sm:text-sm">Kecerdasan Buatan (AI) dalam Energi</p>
+                            </div>
+                        </div>
+
+                        <!-- Bottom Row Icons -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+                            <div class="flex flex-col items-center text-white animate-on-scroll hover-lift p-2"
+                                data-animation="iconBounce">
+                                <img src="./assets/antenna.svg" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 icon-pulse" alt="Antenna Icon">
+                                <p class="mt-2 text-center text-xs sm:text-sm">Internet of Things (IoT) dan Sistem Tertanam</p>
+                            </div>
+                            <div class="flex flex-col items-center text-white animate-on-scroll hover-lift p-2"
+                                data-animation="iconBounce">
+                                <img src="./assets/bulb.svg" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 icon-pulse" alt="Bulb Icon">
+                                <p class="mt-2 text-center text-xs sm:text-sm">Teknologi Inovatif Lainnya yang Mendukung Energi
+                                    Berkelanjutan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Timeline -->
+    <section class="min-h-screen flex items-center justify-center relative py-16 px-4 sm:py-20" style="background: linear-gradient(to bottom, #F6ADBF, #FFE8E6);">
+        
+        <!-- Assets with better mobile positioning -->
+        <img src="assets/asset2.svg" alt=""
+            class="absolute right-[-35%] top-[6%] h-[30vh] w-auto opacity-40 pointer-events-none 
+                   xs:right-[-30%] xs:h-[35vh] xs:opacity-50
+                   sm:right-[-25%] sm:h-[40vh] sm:opacity-60
+                   md:right-[-20%] md:h-[45vh] md:opacity-70
+                   lg:right-[-11%] lg:h-[50vh] lg:opacity-80
+                   xl:right-[-6%] xl:h-[60vh] xl:opacity-100" />
+        
+        <img src="assets/asset1.svg" alt=""
+            class="absolute left-[-35%] bottom-[40%] h-[30vh] w-auto opacity-40 pointer-events-none 
+                   xs:left-[-30%] xs:h-[35vh] xs:opacity-50
+                   sm:left-[-25%] sm:h-[40vh] sm:opacity-60
+                   md:left-[-20%] md:h-[45vh] md:opacity-70
+                   lg:left-[-11%] lg:h-[50vh] lg:opacity-80
+                   xl:left-[-6%] xl:h-[55vh] xl:opacity-100" />
+
+        <div class="w-full max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-start">
+                
+                <!-- Left Column: Timeline -->
+                <div class="text-gray-800">
+                    <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 sm:mb-8 md:mb-12 text-center lg:text-left text-blue-800">
+                        Timeline
+                    </h1>
+
+                    <div class="relative">
+                        <!-- Vertical Line for larger screens -->
+                        <div class="absolute left-4 sm:left-5 md:left-6 top-4 h-[85%] w-1 sm:w-2 bg-gradient-to-b from-[#2B2C66] to-[#1F22D5] hidden sm:block">
+                        </div>
+
+                        <!-- Timeline Items -->
+                        <div class="space-y-6 sm:space-y-8 md:space-y-12">
+                            <!-- Timeline Item 1 -->
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center z-10 flex-shrink-0 bg-gradient-to-r from-[#2B2C66] to-[#1F22D5]">
+                                    <span class="text-white font-bold text-xs sm:text-sm md:text-base">1</span>
+                                </div>
+                                <div class="ml-3 sm:ml-4 md:ml-6">
+                                    <h3 class="font-bold text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-white mb-1 md:mb-2 px-2 sm:px-3 py-1 rounded-full inline-block bg-gradient-to-r from-[#2B2C66] to-[#1F22D5]">
+                                        29 September - 31 Oktober 2025
+                                    </h3>
+                                    <p class="text-xs sm:text-sm md:text-base text-black mt-2">Pembukaan Pendaftaran &
+                                        Pengiriman Full Paper</p>
+                                </div>
+                            </div>
+
+                            <!-- Timeline Item 2 -->
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center z-10 flex-shrink-0 bg-gradient-to-r from-[#2B2C66] to-[#1F22D5]">
+                                    <span class="text-white font-bold text-xs sm:text-sm md:text-base">2</span>
+                                </div>
+                                <div class="ml-3 sm:ml-4 md:ml-6">
+                                    <h3 class="font-bold text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-white mb-1 md:mb-2 px-2 sm:px-3 py-1 rounded-full inline-block bg-gradient-to-r from-[#2B2C66] to-[#1F22D5]">
+                                        06 November 2025
+                                    </h3>
+                                    <p class="text-xs sm:text-sm md:text-base text-black mt-2">Pengumuman Lolos Seleksi
+                                        Full Paper</p>
+                                </div>
+                            </div>
+
+                            <!-- Timeline Item 3 -->
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center z-10 flex-shrink-0 bg-gradient-to-r from-[#2B2C66] to-[#1F22D5]">
+                                    <span class="text-white font-bold text-xs sm:text-sm md:text-base">3</span>
+                                </div>
+                                <div class="ml-3 sm:ml-4 md:ml-6">
+                                    <h3 class="font-bold text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-white mb-1 md:mb-2 px-2 sm:px-3 py-1 rounded-full inline-block bg-gradient-to-r from-[#2B2C66] to-[#1F22D5]">
+                                        7 - 14 November 2025
+                                    </h3>
+                                    <p class="text-xs sm:text-sm md:text-base text-black mt-2">Pembayaran Registration Fee</p>
+                                </div>
+                            </div>
+
+                            <!-- Timeline Item 4 -->
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center z-10 flex-shrink-0 bg-gradient-to-r from-[#2B2C66] to-[#1F22D5]">
+                                    <span class="text-white font-bold text-xs sm:text-sm md:text-base">4</span>
+                                </div>
+                                <div class="ml-3 sm:ml-4 md:ml-6">
+                                    <h3 class="font-bold text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-white mb-1 md:mb-2 px-2 sm:px-3 py-1 rounded-full inline-block bg-gradient-to-r from-[#2B2C66] to-[#1F22D5]">
+                                        22 November 2025
+                                    </h3>
+                                    <p class="text-xs sm:text-sm md:text-base text-black mt-2">Pelaksanaan Presentasi
+                                        Paper</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Information Card -->
+                <div class="rounded-2xl p-4 sm:p-6 md:p-8 shadow-2xl mt-6 sm:mt-8 lg:mt-0 backdrop-blur-sm"
+                    style="background: linear-gradient(135deg, rgba(8,8,54,0.5), rgba(31,34,213,0.5));">
+                    
+                    <!-- Top Card -->
+                    <div class="rounded-xl p-3 sm:p-4 md:p-6 mb-4 bg-gradient-to-r from-[#2B2C66] to-[#1F22D5]">
+                        <h2 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3 text-center">
+                            PELAKSANAAN</h2>
+                        <p class="text-gray-200 text-xs sm:text-sm md:text-base lg:text-lg mb-3 sm:mb-4 md:mb-6 text-center">Peserta dapat
+                            memilih jenis presentasi:</p>
+
+                        <div class="space-y-3 sm:space-y-4">
+                            <div class="flex items-start justify-center">
+                                <div class="w-3 h-3 sm:w-4 sm:h-4 bg-white rounded-full flex items-center justify-center mr-2 sm:mr-3 flex-shrink-0 mt-1">
+                                    <span class="text-[#2B2C66] text-xs font-bold">></span>
+                                </div>
+                                <div class="text-left flex-1">
+                                    <span class="font-semibold text-white text-xs sm:text-sm md:text-base lg:text-lg">Offline:</span>
+                                    <span class="text-gray-200 text-xs sm:text-sm md:text-base lg:text-lg ml-1 sm:ml-2">Presentasi langsung
+                                        di lokasi dengan fasilitas lengkap dan networking sesama peserta</span>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start justify-center">
+                                <div class="w-3 h-3 sm:w-4 sm:h-4 bg-white rounded-full flex items-center justify-center mr-2 sm:mr-3 flex-shrink-0 mt-1">
+                                    <span class="text-[#2B2C66] text-xs font-bold">></span>
+                                </div>
+                                <div class="text-left flex-1">
+                                    <span class="font-semibold text-white text-xs sm:text-sm md:text-base lg:text-lg">Online:</span>
+                                    <span class="text-gray-200 text-xs sm:text-sm md:text-base lg:text-lg ml-1 sm:ml-2">Presentasi virtual
+                                        melalui platform digital dengan akses fleksibel dari mana saja</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bottom Card -->
+                    <div class="rounded-xl p-3 sm:p-4 md:p-6 bg-gradient-to-r from-[#2B2C66] to-[#1F22D5]">
+                        <h2 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white mb-3 sm:mb-4 md:mb-6 text-center">
+                            NARAHUBUNG</h2>
+
+                        <div class="flex flex-col space-y-4 sm:space-y-6">
+                            <!-- Contact 1 -->
+                            <div class="text-center">
+                                <div class="inline-block bg-black bg-opacity-30 rounded-full px-3 sm:px-4 py-1 sm:py-2 mb-2 sm:mb-3">
+                                    <h4 class="font-semibold text-white text-xs sm:text-sm md:text-base">M. Rafi Hidayat</h4>
+                                </div>
+                                <div class="flex items-center justify-center space-x-1 sm:space-x-2">
+                                    <div class="w-5 h-5 sm:w-6 sm:h-6 bg-green-500 rounded-full flex items-center justify-center">
+                                        <svg class="w-3 h-3 sm:w-4 sm:h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                            <path
+                                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.188" />
+                                        </svg>
+                                    </div>
+                                    <p class="text-gray-200 text-xs sm:text-sm">087720473179</p>
+                                </div>
+                            </div>
+
+                            <!-- Divider -->
+                            <div class="w-full h-px bg-gray-400"></div>
+
+                            <!-- Contact 2 -->
+                            <div class="text-center">
+                                <div class="inline-block bg-black bg-opacity-30 rounded-full px-3 sm:px-4 py-1 sm:py-2 mb-2 sm:mb-3">
+                                    <h4 class="font-semibold text-white text-xs sm:text-sm md:text-base">M. Raihan Putra</h4>
+                                </div>
+                                <div class="flex items-center justify-center space-x-1 sm:space-x-2">
+                                    <div class="w-5 h-5 sm:w-6 sm:h-6 bg-green-400 rounded-full flex items-center justify-center">
+                                        <svg class="w-3 h-3 sm:w-4 sm:h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                            <path
+                                                d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.063-.022.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.628-.629.628M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314" />
+                                        </svg>
+                                    </div>
+                                    <p class="text-gray-200 text-xs sm:text-sm">raihanputra578</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Registration -->
+    <section class="min-h-screen flex items-center justify-center relative py-16 px-4 pb-24 sm:py-20 sm:pb-32" style="background: linear-gradient(to bottom, #FFE8E6, #F6ADBF);">
+        
+        <!-- Decorations for Section 5 with better mobile positioning -->
+        <img src="assets/asset1.svg" alt=""
+            class="absolute left-[-30%] top-[4%] h-[30vh] w-auto opacity-40 pointer-events-none 
+                   xs:left-[-25%] xs:h-[35vh] xs:opacity-50
+                   sm:left-[-20%] sm:h-[40vh] sm:opacity-60
+                   md:left-[-15%] md:h-[45vh] md:opacity-70
+                   lg:left-[-9%] lg:h-[50vh] lg:opacity-80
+                   xl:left-[-5%] xl:h-[60vh] xl:opacity-100" />
+        
+        <img src="assets/asset2.svg" alt=""
+            class="absolute right-[-30%] bottom-[4%] h-[30vh] w-auto opacity-40 pointer-events-none 
+                   xs:right-[-25%] xs:h-[35vh] xs:opacity-50
+                   sm:right-[-20%] sm:h-[40vh] sm:opacity-60
+                   md:right-[-15%] md:h-[45vh] md:opacity-70
+                   lg:right-[-9%] lg:h-[50vh] lg:opacity-80
+                   xl:right-[-5%] xl:h-[60vh] xl:opacity-100" />
+
+        <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 sm:gap-8 md:gap-6 items-stretch">
+                
+                <!-- Left Column: Large Card (Takes 2 columns) -->
+                <div class="lg:col-span-2 rounded-2xl p-4 sm:p-6 md:p-8 shadow-xl bg-gradient-to-r from-[#2B2C66] to-[#1F22D5] w-full">
+                    <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-6 sm:mb-8 text-center">REGISTRATION FEE</h3>
+
+                    <div class="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-0">
+                        <!-- Kolom Kiri - Mahasiswa -->
+                        <div class="flex-1 text-center">
+                            <div class="inline-block bg-black bg-opacity-30 rounded-full px-4 sm:px-6 py-2 mb-4 sm:mb-6">
+                                <h4 class="font-semibold text-white text-base sm:text-lg">Mahasiswa</h4>
+                            </div>
+
+                            <div class="space-y-3">
+                                <div>
+                                    <p class="font-semibold text-white text-sm sm:text-base mb-1">Online</p>
+                                    <p class="text-gray-200 text-lg sm:text-xl font-bold">Rp75.000</p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-white text-sm sm:text-base mb-1">Offline</p>
+                                    <p class="text-gray-200 text-lg sm:text-xl font-bold">Rp100.000</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Garis Pembatas -->
+                        <div class="w-full h-px sm:w-px sm:h-32 bg-gray-400 sm:mx-8"></div>
+
+                        <!-- Kolom Kanan - Dosen -->
+                        <div class="flex-1 text-center">
+                            <div class="inline-block bg-black bg-opacity-30 rounded-full px-4 sm:px-6 py-2 mb-4 sm:mb-6">
+                                <h4 class="font-semibold text-white text-base sm:text-lg">Dosen</h4>
+                            </div>
+
+                            <div class="space-y-3">
+                                <div>
+                                    <p class="font-semibold text-white text-sm sm:text-base mb-1">Online</p>
+                                    <p class="text-gray-200 text-lg sm:text-xl font-bold">Rp100.000</p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-white text-sm sm:text-base mb-1">Offline</p>
+                                    <p class="text-gray-200 text-lg sm:text-xl font-bold">Rp150.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: First Card -->
+                <div class="rounded-xl p-4 sm:p-6 shadow-lg bg-gradient-to-r from-[#2B2C66] to-[#1F22D5] flex flex-col justify-center">
+                    <h4 class="text-base sm:text-lg md:text-xl font-bold text-white mb-4 text-center">Formulir
+                        <br>Pendaftaran</h4>
+                    <div class="flex flex-col items-center">
+                        <div class="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-lg mb-3 overflow-hidden bg-white/10 flex items-center justify-center">
+                            <img src="" alt="Registration Form Icon" class="w-full h-full object-cover rounded-lg" />
+                        </div>
+                        <p class="text-xs sm:text-sm text-gray-200 text-center">
+                            bit.ly/formulir-pendaftaran
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Column: Second Card -->
+                <div class="rounded-xl p-4 sm:p-6 shadow-lg bg-gradient-to-r from-[#2B2C66] to-[#1F22D5] flex flex-col justify-center">
+                    <h4 class="text-base sm:text-lg md:text-xl font-bold text-white mb-4 text-center">Template<br>
+                        Paper</h4>
+                    <div class="flex flex-col items-center">
+                        <div class="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-lg mb-3 overflow-hidden bg-white/10 flex items-center justify-center">
+                            <img src="" alt="Template Paper Icon" class="w-full h-full object-cover rounded-lg" />
+                        </div>
+                        <p class="text-xs sm:text-sm text-gray-200 text-center">
+                            bit.ly/template-paper
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Register Button -->
+            <div class="text-center mt-6 sm:mt-8 md:mt-10 lg:mt-12">
+                <button class="relative bg-white/65 backdrop-blur-md border border-white/30
+                             text-blue-800 font-semibold 
+                             py-3 px-8 sm:py-4 sm:px-12 md:py-5 md:px-16 lg:py-6 lg:px-20
+                             rounded-full text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 
+                             shadow-lg transition duration-300 
+                             hover:bg-white/50 hover:scale-105">
+                    Daftar Sekarang
+                </button>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="js/main.js"></script>
+
+</html>
